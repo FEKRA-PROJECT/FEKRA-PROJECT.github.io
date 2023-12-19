@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with-device-width, initial-scale=1.0">
+        <title>FEKRA</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="shortcut icon" href="images/logo.png" type="x-icon">
+    </head>
+    <body>
+        <!---------first section : header----------->
+        <section class ="sub-header">
+                <nav>
+                    <a href="main.html"> <img src="images/logo.png"></a>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="main.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="programs.html">PROGRAMS</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+                <h1>About Us</h1>
+        </section>
+<!---------------second section:about us content ---------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col1">
+            <h1>We Aim to help you achieve your dreams</h1>
+            <p>FEKRA" is a comprehensive educational project founded by Ibrahim Mohammad and Al-Jalilah in the year 2021.
+                With a strong focus on education, FEKRA aims to provide students with enhanced educational opportunities,
+                including specialized preparation for the SAT. The project offers private lessons specifically tailored to SAT preparation,
+                with the goal of helping students excel in both the math and English sections of the exam. Additionally,
+                FEKRA places emphasis on developing writing skills, fostering analytical thinking, and promoting multilingualism among students.
+                By offering a range of educational resources and services, FEKRA seeks to raise awareness and contribute to the overall educational
+                development of society, while also equipping students with the tools they need to succeed in their SAT exams and beyond.
+            </p>
+            <a href="https://chat.whatsapp.com/GMBUvh0MdXp6gIRYcaXPfA" class="hero-btn blue-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about-us-ibrahim.jpeg">
+        </div>
+        <div class="about-col">
+            <img src="images/about-us-jalila.jpeg">
+        </div>
+    </div>
+</section>
+<!------------third section :meet the team------------>
+<section class="team">
+    <h1>Meet The Team</h1>
+    <p>meet the dedicated individuals that helped in developing FEKRA to help all students</p>
+    <div class="row">
+        <div class="team-col">
+            <h7>Dima El Haj</h7>
+            <p>Assistant and mentor for FEKRA and a Biology Premed student at AUB</p>
+
+        </div> 
+        <div class="team-col">
+            <h7>Qamar Hamdi</h7>
+            <p>Social Ambassador for FEKRA and a biomedical lab student at LIU</p>
+
+        </div> 
+        <div class="team-col">
+            <h7>Aya al Saleh</h7>
+            <p>Social Ambassador for FEKRA and a Computer Science student at LAU</p>
+
+        </div> 
+
+    </div>
+    <div class="row">
+        <div class="team-col">
+            <h7>Asmaa Chrieh</h7>
+            <p>SAT instructor and mentor for scholarships and universities for FEKRA and a Computer Science student at AUB</p>
+
+        </div> 
+        <div class="team-col">
+            <h7>Aya El Haj</h7>
+            <p>Program coordinator and designer for FEKRA and a Nursing student at AUB</p>
+
+        </div> 
+        <div class="team-col">
+            <h7>Ahmad Wehbe</h7>
+            <p>Chief financial officer for FEKRA and founder of AD Production </p>
+
+        </div> 
+
+    </div>
+</section>
+
+<!------------seventh section : footer------------>
+<section class="footer">
+<h4>About Us</h4>
+<p>Keep updated with us to never miss out on
+ a new program.
+</p>
+<div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkedin"></i>
+
+   <p>made with<i class="fa-regular fa-heart"></i> HJS</p> 
+</div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+        <!-----javaScript for toggle menu------>
+        <script>
+            var navLinks= document.getElementById("navLinks");
+
+            function showMenu (){
+                navLinks.style.right= "0";
+
+
+            }
+            function hideMenu (){
+                navLinks.style.right= "-200px";
+            }
+        </script>
+
+<script src="https://kit.fontawesome.com/c17ab9f273.js" crossorigin="anonymous"></script>
+    </body>
+</html>
